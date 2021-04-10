@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el archivo counter debe de mostrar <CounterApp /> correctamente con sus valores por defecto con el snapshot 1`] = `
+<Fragment>
+  <p>
+    Counter App 
+  </p>
+  <p
+    id="counter"
+  >
+    10
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    +1
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    Reset
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    -1
+  </button>
+</Fragment>
+`;

@@ -1,10 +1,10 @@
 import React, { Fragment, useState } from "react";
 import PropTypes from "prop-types";
 
-const CounterApp = ({ value = 0 }: any) => {
+const CounterApp = ({ value = 10 }: any) => {
   // hooks
   const [counter, setCounter] = useState(value); // devuelve un arreglo []
-  console.log({ counter, setCounter });
+  // console.log({ counter, setCounter });
 
   // add
   const add = () => {
@@ -29,7 +29,7 @@ const CounterApp = ({ value = 0 }: any) => {
   return (
     <>
       <p>Counter App </p>
-      <p> {counter} </p>
+      <p id='counter'>{counter}</p>
       <button onClick={add}>+1</button>
       <button onClick={reset}>Reset</button>
       <button onClick={less}>-1</button>

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el archivo Primeraapp  debe de mostrar <PrimerApp /> correctamente"  1`] = `
+<Fragment>
+  <h1>
+     
+    Hola mundo desde una variable en reactjs
+     jejejeejjejej q tal
+  </h1>
+  <p>
+    primera pagina en reactjs 
+  </p>
+  <p>
+    props en reactjs 
+    Hola soy goku
+     
+  </p>
+  <p>
+    hola soy 
+    Hola soy goku
+     
+  </p>
+  <p
+    id="p"
+  >
+    soy un subtitulo
+  </p>
+</Fragment>
+`;
+
+exports[`Pruebas en el archivo demo.tets.ts debe de mostrar <PrimerApp /> correctamente"  1`] = `
+<Fragment>
+  <h1>
+     
+    Hola mundo desde una variable en reactjs
+     jejejeejjejej q tal
+  </h1>
+  <p>
+    primera pagina en reactjs 
+  </p>
+  <p>
+    props en reactjs 
+    Hola soy goku
+     
+  </p>
+  <p>
+    hola soy 
+    Hola soy goku
+     
+  </p>
+  <p
+    id="p"
+  >
+    soy un subtitulo
+  </p>
+</Fragment>
+`;

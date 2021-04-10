@@ -33,7 +33,8 @@ const PrimeraApp = ({saludo, subtitulo}:any) => {
       {/* <pre> {JSON.stringify(persona)}</pre> */}
       <p>primera pagina en reactjs </p>
       <p>props en reactjs {saludo} </p>
-      <p>subtitlo en reactjs {subtitulo} </p>
+      <p>hola soy {saludo} </p>
+      <p id='p'>{subtitulo}</p>
     </Fragment>
   );
 };
